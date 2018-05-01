@@ -1,0 +1,18 @@
+body { margin: 0; padding: 0; font-size: 16px; background: #fff; color: #333; line-height: 1.5; }
+ul, li, dl, dt, dd { list-style: none; margin: 0; padding: 0; }
+a { text-decoration: none; color: #333; cursor: pointer; }
+p, h1, h2, h3, h4, h5, h6, img, div, input, textarea { border: 0; margin: 0; padding: 0; outline: none; }
+*{box-sizing:border-box;}
+.max{max-width: 100%;max-height: 100%;}
+/*清除浮动*/
+.clear{clear: both;}
+.clearfix:after{content: '';display: block;clear:both;}
+/*过渡*/
+.tran{transition: all 0.3s ease-in-out;}
+/*不换行*/
+.nowrap{white-space: nowrap;overflow: hidden;text-overflow: ellipsis;}
+.float-left{float: left;}
+.float-right{float: right;}
+.text-center{text-align: center;}
+.text-bold{text-align: bold;}
+.loading{text-align: center;margin: 30px;color: #333;}
